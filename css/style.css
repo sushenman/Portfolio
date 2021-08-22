@@ -551,39 +551,3 @@ button[type=submit] {
     background-color: black;
     border-radius: 10px;
 }
-
-@media(max-width: 800px) {
-    .effect {
-        display: none;
-    }
-    .bar {
-        width: 50%;
-    }
-    .skills .container {
-        padding: auto;
-        margin: auto;
-    }
-    .skills .cssp {
-        text-align: left;
-    }
-}
-
-@media(max-width: 700px) {
-    .toggle-button {
-        display: flex;
-        cursor: pointer;
-    }
-    .navig {
-        visibility: hidden;
-    }
-    .project-content {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .contact .contact-item {
-        grid-template-columns: repeat(1, 1fr);
-        width: 50%;
-    }
-    .home {
-        max-width: 800px;
-    }
-}
