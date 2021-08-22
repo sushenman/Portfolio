@@ -1,11 +1,19 @@
-// navigation 
-const nav_bar = document.querySelector('.navi');
-window.addEventListener('scroll', () => {
-    const scrol = window.scrollY;
+const toggleButton = document.querySelector('.toggle-button');
+const nav = document.querySelector('.navig');
 
-    if (scrol >= 780) {
-        nav_bar.classList.add('sticky');
+function myFunction() {
+    console.log(hello)
+
+};
+let goto = document.querySelector('.to');
+window.addEventListener('scroll', () => {
+    const scroll = window.scrollY;
+
+    if (scroll >= 780) {
+        goto.classList.add('sticky');
+
     } else {
-        nav_bar.classList.remove('sticky');
+        goto.classList.remove('sticky');
+
     }
-})
+});

@@ -50,51 +50,25 @@
             <div></div>
 
         </div>
-        <div class="effect effect3">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-
-        </div>
     </div>
-    <div class="header">
-        <nav>
+    <div class="toggle-button" onclick="myFunction()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <div class="header" id="Header">
+
+        <nav class="nav">
+
             <div class="container">
                 <div class="top justify-content ">
                     <div class="logo">
                         $U$HEN
                     </div>
-                    <div class="navi">
+                    <div class="navig active">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#Home">Home</a>
                             </li>
                             <li>
                                 <a href="#About">About</a>
@@ -106,7 +80,7 @@
                                 <a href="#Project">Project</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#Contact">Contact</a>
                             </li>
                         </ul>
 
@@ -114,25 +88,29 @@
                 </div>
             </div>
         </nav>
-        <div class="home">
-            <div class="container outer-shadow">
-                <div class="top full alignItems">
-                    <div class="homeText">
-                        <p>Hello I'm</p>
-                        <h1> Sushen Man Bijukchhe </h1>
-                        <p class="front">Front-end Developer</p>
-                        <button class="btn">Download CV</button>
 
-                    </div>
-                    <div class="homeImg  front">
-                        <div class="img-box">
-                            <img src="photos/2.gif" alt="profile">
-                        </div>
+
+
+    </div>
+    <div class="home" id="Home">
+        <div class="container outer-shadow ">
+            <div class="top full alignItems">
+                <div class="homeText">
+                    <p>Hello I'm</p>
+                    <h1> Sushen Man Bijukchhe </h1>
+                    <p class="front">Front-end Developer</p>
+                    <a href="resume.pdf" target="_blank" download> <button class="btn">Download CV</button></a>
+
+                </div>
+                <div class="homeImg  front">
+                    <div class="img-box">
+                        <img src="photos/2.gif" alt="profile">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="about">
         <div class="container ">
             <div class="what-do-i-do">
@@ -234,7 +212,7 @@
     <div class="contact">
         <div class="container">
             <div class="title">
-                <h2>Get In Touch</h2>
+                <h1 id="Contact">Get In Touch</h1>
             </div>
         </div>
         <div class="container">
@@ -290,11 +268,61 @@
         </div>
     </div>
     </div>
+    <div class="footer">
+        <div class="container">
+            <div class="icons">
+                <div class="fb">
+                    <a href="https://www.facebook.com/sushen.man/" target="_blank"> <i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="in">
+                    <a href="https://www.linkedin.com/in/sushen-man-38718b194/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="gh">
+                    <a href="https://github.com/sushenman?tab=repositories" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="navib">
+                <ul>
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Skill">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#Project">Project</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                Copyright ©2021 All rights reserved
+            </div>
+
+        </div>
+    </div>
+    <div class="to">
+        <a href="#Header">
+            <div class="gotop">
+                <i class="fas fa-angle-double-up"></i>
+            </div>
+        </a>
+    </div>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
 </body>
 
 
